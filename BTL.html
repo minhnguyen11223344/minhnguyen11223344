@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo website</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/f2e954852d.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+    <div class="app">
+        <header class="header">          
+            <div class="grid ">
+                <nav class="header__navbar ">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-iteam "><a class="header__navbar-link" href="Btap_layout.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>   
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-iteam">
+                            <a href="" class="header__navbar-link"><i class="fa-solid fa-bell"></i> Thông báo</a>
+                        </li>
+                        <li class="header__navbar-iteam">
+                            <a href="" class="header__navbar-link"><i class="fa-solid fa-circle-question"></i> Trợ giúp</a>
+                        </li>
+                        <li class="header__navbar-iteam header__navbar-iteam--bold">Đăng ký</li>
+                        <li class="header__navbar-iteam header__navbar-iteam--bold"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</li>
+                    </ul>
+                </nav>
+                <div class="header__logo_search">
+                    <div class="header__logo">
+                        <img class="header__logo-img" src="https://cdn.discordapp.com/attachments/941970614091145266/1217142992188477460/logo.png?ex=6602f3be&is=65f07ebe&hm=e2adabb337fc71a4c99e23f30a648b69f0d1045d89b02428fb683f15418ca2fe&">
+                    </div>
+                    <div class="header__search">
+                        <input class="header__search--text" type="text" name="Timkiemtxt" placeholder="Nhập sách bạn cần tìm?">
+                        <button class="header__logo_search-button">Tìm</button>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+        <div class="container-fluid">
+            <div class="grid">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header ">
+                                    <h3 class="card-link" data-toggle="collapse" href="#danhmuc">Danh Mục <i class="fa-solid fa-caret-down"></i></h3>
+                                </div>
+                                <div id="danhmuc" class="collapse show" data-parent="#accordion">
+                                    <ul class="Menu__list">
+                                        <li class="Menu__list-item">
+                                            <a class="Menu__list-itemlink" href="">Sách hay nổi bật</a>
+                                        </li>
+                                        <li class="Menu__list-item">
+                                            <a class="Menu__list-itemlink" href="danh_muc_sp.html">Truyện tranh</a>
+                                        </li>
+                                        <li class="Menu__list-item">
+                                            <a class="Menu__list-itemlink" href="">Sách giáo khoa-giáo trình</a>
+                                        </li>
+                                        <li class="Menu__list-item">
+                                            <a class="Menu__list-itemlink" href="">Bách khoa tri thức</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-8 col-sm-6 col-12">
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+                            <ul class="carousel-indicators">
+                              <li data-target="#demo" data-slide-to="0" class="active"></li>
+                              <li data-target="#demo" data-slide-to="1"></li>
+                              <li data-target="#demo" data-slide-to="2"></li>
+                            </ul>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="https://newshop.vn/public/uploads/options/s%C3%A1ch%20v%C4%83n%20h%E1%BB%8Dc%20-%20t%C3%A2m%20l%C3%AD.jpg" alt="Los Angeles" width="1100" height="500">
+                                <div class="carousel-caption">
+                                  <h3>Los Angeles</h3>
+                                  <p>We had such a great time in LA!</p>
+                                </div>   
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://newshop.vn/public/uploads/options/sach_ky_nang_song.jpg" alt="Chicago" width="1100" height="500">
+                                <div class="carousel-caption">
+                                  <h3>Chicago</h3>
+                                  <p>Thank you, Chicago!</p>
+                                </div>   
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://newshop.vn/public/uploads/options/sachkinhdoanh.jpg" alt="New York" width="1100" height="500">
+                                <div class="carousel-caption">
+                                  <h3>New York</h3>
+                                  <p>We love the Big Apple!</p>
+                                </div>   
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                            </a>
+                          </div>
+                          <div class="tachkhung">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                               
+                                <div class="SP_item-info">
+                                    <div class="SP_item-info__book" >
+                                        <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="One Piece" referrerpolicy="origin">
+                                    </div>
+                                    <div class="SP_item-info-name">    
+                                        <a class="SP_item-info-tagName" href="Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
+                                    </div>
+                                    <div class="SP_item-info-money">
+                                        <span class="SP_item-info-money-old">230.000₫</span>
+                                        <span class="SP_item-info-money-new">123,000đ</span>
+                                        <span class="SP_item-info-money-sale">-15%</span>        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="SP_item-info">
+                                    <div class="SP_item-info__book" >
+                                        <img class="SP_item-info-img " src="https://cdnnvd.com/nettruyen/thumb/one-piece.jpg" alt="One Piece" referrerpolicy="origin">
+                                    </div>
+                                    <div class="SP_item-info-name">    
+                                        <a class="SP_item-info-tagName" href="Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
+                                    </div>
+                                    <div class="SP_item-info-money">
+                                        <span class="SP_item-info-money-old">230.000₫</span>
+                                        <span class="SP_item-info-money-new">123,000đ</span>
+                                        <span class="SP_item-info-money-sale">-15%</span>        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="SP_item-info">
+                                    <div class="SP_item-info__book" >
+                                        <img class="SP_item-info-img" src="https://cdnnvd.com/nettruyen/thumb/one-piece.jpg" alt="One Piece" referrerpolicy="origin">
+                                    </div>
+                                    <div class="SP_item-info-name">    
+                                        <a class="SP_item-info-tagName" href="Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
+                                    </div>
+                                    <div class="SP_item-info-money">
+                                        <span class="SP_item-info-money-old">230.000₫</span>
+                                        <span class="SP_item-info-money-new">123,000đ</span>
+                                        <span class="SP_item-info-money-sale">-15%</span>        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="SP_item-info">
+                                    <div class="SP_item-info__book" >
+                                        <img class="SP_item-info-img" src="https://cdnnvd.com/nettruyen/thumb/one-piece.jpg" alt="One Piece" referrerpolicy="origin">
+                                    </div>
+                                    <div class="SP_item-info-name">    
+                                        <a class="SP_item-info-tagName" href="Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
+                                    </div>
+                                    <div class="SP_item-info-money">
+                                        <span class="SP_item-info-money-old">230.000₫</span>
+                                        <span class="SP_item-info-money-new">123,000đ</span>
+                                        <span class="SP_item-info-money-sale">-15%</span>        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="SP_item-info">
+                                    <div class="SP_item-info__book" >
+                                        <img class="SP_item-info-img" src="https://cdnnvd.com/nettruyen/thumb/one-piece.jpg" alt="One Piece" referrerpolicy="origin">
+                                    </div>
+                                    <div class="SP_item-info-name">    
+                                        <a class="SP_item-info-tagName" href="Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
+                                    </div>
+                                    <div class="SP_item-info-money">
+                                        <span class="SP_item-info-money-old">230.000₫</span>
+                                        <span class="SP_item-info-money-new">123,000đ</span>
+                                        <span class="SP_item-info-money-sale">-15%</span>        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="SP_item-info">
+                                    <div class="SP_item-info__book" >
+                                        <img class="SP_item-info-img" src="https://cdnnvd.com/nettruyen/thumb/one-piece.jpg" alt="One Piece" referrerpolicy="origin">
+                                    </div>
+                                    <div class="SP_item-info-name">    
+                                        <a class="SP_item-info-tagName" href="Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
+                                    </div>
+                                    <div class="SP_item-info-money">
+                                        <span class="SP_item-info-money-old">230.000₫</span>
+                                        <span class="SP_item-info-money-new">123,000đ</span>
+                                        <span class="SP_item-info-money-sale">-15%</span>        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>    
+                            
+                        
+                    </div>
+                    
+                </div>
+                   
+            </div>
+        </div>
+            
+        </div>
+        <footer>
+            <div class="footer__header">
+                <h4 class="footer__say">Bookstore-Tri thức muôn nơi</h4>
+                <ul class=" footer__information">
+                    <li class="footer__information-item">
+                        <b>Sàn sách trực tuyến quốc gia</b><br>
+                        <b>Bookstore.com</b>
+                        <p>Thuộc bộ thông tin và truyền thông</p>
+                        <p>Đơn vị vận hành :Vivi Education</p>
+                    </li>
+                    <li class="footer__information-item">
+                        <a class="footer__information-link" href=""><b>Giới thiệu</b></a><br>
+                        <a class="footer__information-link" href=""><b>Kết nối</b></a> 
+                        <a href="" class="footer__navbar-icon-fb">
+                            <i class="icon fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="" class="footer__navbar-icon-Ins">
+                            <i class="icon fa-brands fa-instagram"></i>
+                        </a>
+                        
+                    </li>
+                    <li class="footer__information-item">
+                        <b>Hotline: 0247 300 1369</b><br>
+                        <b>Lượt truy cập: 6.892.340</b>
+                    </li>
+                </ul>
+            </div>
+            
+        </footer>
