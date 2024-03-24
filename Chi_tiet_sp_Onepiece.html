@@ -1,0 +1,470 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo website</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/941970614091145266/1217142992188477460/logo.png?ex=6602f3be&is=65f07ebe&hm=e2adabb337fc71a4c99e23f30a648b69f0d1045d89b02428fb683f15418ca2fe&" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/f2e954852d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">          
+            <div class="grid ">
+                <nav class="header__navbar ">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-iteam "><a class="header__navbar-link" href="Btap_layout.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>   
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-iteam">
+                            <a href="" class="header__navbar-link"><i class="fa-solid fa-bell"></i> Thông báo</a>
+                        </li>
+                        <li class="header__navbar-iteam">
+                            <a href="" class="header__navbar-link"><i class="fa-solid fa-circle-question"></i> Trợ giúp</a>
+                        </li>
+                        <li class="header__navbar-iteam header__navbar-iteam--bold">Đăng ký</li>
+                        <li class="header__navbar-iteam header__navbar-iteam--bold"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</li>
+                    </ul>
+                </nav>
+                <div class="header__logo_search">
+                    <div class="header__logo">
+                        <img class="header__logo-img" src="https://cdn.discordapp.com/attachments/941970614091145266/1217142992188477460/logo.png?ex=6602f3be&is=65f07ebe&hm=e2adabb337fc71a4c99e23f30a648b69f0d1045d89b02428fb683f15418ca2fe&">
+                    </div>
+                    <div class="header__search">
+                        <input class="header__search--text" type="text" name="Timkiemtxt" placeholder="Nhập sách bạn cần tìm?">
+                        <button class="header__logo_search-button">Tìm</button>
+                    </div>
+                    <div class="header__shopping">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+        <div class="container-fluid">
+            <div class="grid">
+                <div class="row item">
+                    <div class="trangchu"> 
+                        <ul class="trangchu-chitiet">
+                            <li class="li"><a class="li-link" href=""><i class="fa-solid fa-house"></i><b class="btrangchu">Trang chủ</b></a></li>
+                            <li class="li"><b style="color:rgb(8, 102, 253);">></b></li>
+                            <li class="li"><a class="li-link" href="">One piece - Đảo hải tặc</a></li>
+                        </ul>
+                    </div>
+                    <div class="trangchu-chitiet2">
+                        <h5 class="tieude">One piece - Đảo hải tặc</h5>
+                        <!-- bat dau ui gioi thieu sach -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="sp-sach">
+                                        <img  width="100%" height="100%" class="img" src="https://cdnnvd.com/nettruyen/thumb/one-piece.jpg" alt="One Piece" referrerpolicy="origin">
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-sm-6 col-xs-12">
+                                        <ul class="list-thongtin">
+                                            <li class="thongtin-demuc row">
+                                                <p class="col-md-4">Tên khác: </p>
+                                                <p class="col-md-8">Vua hải tặc, Đảo hải tặc, One Piece</p>
+                                            </li>
+                                            <li class="thongtin-demuc row">
+                                                <p class="col-md-4">Tác giả: </p>
+                                                <a href="" class="col-md-8 li-link">Eiichiro Oda</a>
+                                            </li>
+                                            <li class="thongtin-demuc row">
+                                                <p class="col-md-4">Tình trạng: </p>
+                                                <p class="col-md-8">Đang cập nhật</p>
+                                            </li>
+                                            <li class="thongtin-demuc row">
+                                                <p class="col-md-4">Thể loại: </p>
+                                                <p class="col-md-8">
+                                                    <a href="" class="theloai"> Action - </a>
+                                                    <a href="" class="theloai">Adventure - </a>
+                                                    <a href="" class="theloai">Comedy - </a>
+                                                    <a href="" class="theloai">Drama - </a>
+                                                    <a href="" class="theloai">Fantasy - </a>
+                                                    <a href="" class="theloai">Shounen - </a>
+                                                    <a href="" class="theloai">Supernatural</a>
+                                                </p>
+                                            </li>
+                                            <li class="thongtin-demuc row">
+                                                <p class="col-md-4">Lượt xem: </p>
+                                                <p class="col-md-8">420.111.092</p>
+                                            </li>
+                                        </ul>
+                                        <div class="xephang">
+                                            <a href="" class="li-link"><span>Miễn dịch</span></a>
+                                            <span class="">Xếp hạng: 4.5/5 - 145.969.121  Lượt đánh giá. </span>
+                                        </div>
+                                        <div class="row xephang2">
+                                            <div class="col-md-6 col-sm-star">
+                                                <i class="fa-solid fa-star" style="color:rgb(177, 217, 66)"></i>
+                                                <i class="fa-solid fa-star" style="color:rgb(177, 217, 66)"></i>
+                                                <i class="fa-solid fa-star" style="color:rgb(177, 217, 66)"></i>
+                                                <i class="fa-solid fa-star" style="color:rgb(177, 217, 66)"></i>
+                                                <i class="fa-solid fa-star-half-stroke" style="color:rgb(177, 217, 66)"></i>
+                                            </div>
+                                            <div class="col-md-6 like-share">
+                                                <button name="like" class="like"><i class="fa-solid fa-thumbs-up"></i> Like</button>
+                                                <button name="share" class="share"><i class="fa-solid fa-share" style="color:rgb(255, 255, 255)"></i> Share</button>
+                                            </div>
+                                            <div class="Buy">
+                                                <hr>
+                                                <ul class="info-buy">
+                                                    <li class="info-buy-km"><h4>Thông tin & khuyến mãi</h4></li>
+                                                    <li class="info-buy-km"> Giá hiện tại: <b class="info_list-color">304.950đ</b></li>
+                                                    <li class="info-buy-km">Tiết kiệm: <b class="info_list-color">17.000đ (5%)</b></li>
+                                                    <li class="info-buy-km">Giá thị trường: <s>321.000đ</s></li>
+                                                    <li class="info-buy-km">Đổi trả hàng trong vòng 7 ngày</li>
+                                                    <li class="info-buy-km">Freeship nội thành Hà Nội từ 150.000đ*.Chi tiết <a class="li-link" href="">tại đây</a></li>
+                                                    <li class="info-buy-km">Freeship toàn quốc từ 250.000đ</li>
+                                                </ul>
+                                                <button name="buy" class="button_buy"><i class="fa-solid fa-cart-shopping" style="color:rgb(255, 255, 255)"></i><a href="" class="muangay">Mua ngay</a></button>
+                                            </div>    
+                                        </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="noidung">
+                        <h4 style="color: #777676;"><i class="fa-regular fa-file"></i> Giới thiệu</h4>
+                        <hr>
+                        <div class="noidung-chitiet">
+                            <div class="noidung-chitietp1">
+                                <p>
+                                    Chào mừng độc giả thân mến của 
+                                    <a href="" class="li-link">Bookstore</a>
+                                    , One Piece là bộ truyện tranh hấp dẫn mà Bookstore muốn mang đến cho các bạn. Đây là bộ truyện tranh nằm trong thể loại Action, Adventure, Comedy, Drama, Fantasy, Shounen, Supernatural trên website của chúng tôi.
+                                
+                                </p>
+                            </div>
+                            <div class="noidung-chitietp2">
+                                <p>
+                                    One Piece là câu truyện kể về Luffy và các thuyền viên của mình. Khi còn nhỏ, Luffy ước mơ trở thành Vua Hải Tặc. Cuộc sống của cậu bé thay đổi khi cậu vô tình có được sức mạnh có thể co dãn như cao su, nhưng đổi lại, cậu không bao giờ có thể bơi được nữa. Giờ đây, Luffy cùng những người bạn hải tặc của mình ra khơi tìm kiếm kho báu One Piece, kho báu vĩ đại nhất trên thế giới. Trong One Piece, mỗi nhân vật trong đều mang một nét cá tính đặc sắc kết hợp cùng các tình huống kịch tính, lối dẫn truyện hấp dẫn chứa đầy các bước ngoặt bất ngờ và cũng vô cùng hài hước đã biến One Piece trở thành một trong những bộ truyện nổi tiếng nhất không thể bỏ qua. Hãy đọc One Piece để hòa mình vào một thế giới của những hải tặc rộng lớn, đầy màu sắc, sống động và thú vị, cùng đắm chìm với những nhân vật yêu tự do, trên hành trình đi tìm ước mơ của mình.
+                                </p>
+                            </div>
+                            <div class="noidung-chitietp1">
+                                <p>
+                                    Chúc các bạn có những trải nghiệm thú vị và mới mẻ khi đọc và trải nghiệm  
+                                    <a class="li-link" href="">One piece-Đảo hải tặc</a> 
+                                    tại Bookstore. Chúng tôi rất sẵn lòng ghi nhận những đóng góp hoặc phản hồi về chất lượng về trải nghiệm của các bạn. Đừng ngại góp ý cho chúng tôi nhé!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trangchu-chitiet2">
+                        <h2>Đề xuất </h2>
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+            
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo" data-slide-to="1"></li>
+                          <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                        
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="SP_item-info">
+                                            <div class="SP_item-info__book" >
+                                                <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
+                                            </div>
+                                            <div class="SP_item-info-name">    
+                                                <a class="SP_item-info-tagName" href="Chi_tiet_sp_miendich.html" target="_self">
+                                                    <h6 class="item-info-tagName">Miễn dịch - Du hành thăm hệ thống bí ẩn giữ cho ta sống sót
+                                                    </h6>
+                                                  </a>
+                                                  
+                                            </div>
+                                            <div class="SP_item-info-money">
+                                                <span class="SP_item-info-money-old">499.000₫</span>
+                                                <span class="SP_item-info-money-new">349,000đ</span>
+                                                <span class="SP_item-info-money-sale">-15%</span>        
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="SP_item-info">
+                                            <div class="SP_item-info__book" >
+                                                <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
+                                            </div>
+                                            <div class="SP_item-info-name">    
+                                                <a class="SP_item-info-tagName" href="Chi_tiet_sp_miendich.html" target="_self">
+                                                    <h6 class="item-info-tagName">Miễn dịch - Du hành thăm hệ thống bí ẩn giữ cho ta sống sót
+                                                    </h6>
+                                                  </a>
+                                                  
+                                            </div>
+                                            <div class="SP_item-info-money">
+                                                <span class="SP_item-info-money-old">499.000₫</span>
+                                                <span class="SP_item-info-money-new">349,000đ</span>
+                                                <span class="SP_item-info-money-sale">-15%</span>        
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="SP_item-info">
+                                            <div class="SP_item-info__book" >
+                                                <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
+                                            </div>
+                                            <div class="SP_item-info-name">    
+                                                <a class="SP_item-info-tagName" href="Chi_tiet_sp_miendich.html" target="_self">
+                                                    <h6 class="item-info-tagName">Miễn dịch - Du hành thăm hệ thống bí ẩn giữ cho ta sống sót
+                                                    </h6>
+                                                  </a>
+                                                  
+                                            </div>
+                                            <div class="SP_item-info-money">
+                                                <span class="SP_item-info-money-old">499.000₫</span>
+                                                <span class="SP_item-info-money-new">349,000đ</span>
+                                                <span class="SP_item-info-money-sale">-15%</span>        
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="SP_item-info">
+                                            <div class="SP_item-info__book" >
+                                                <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
+                                            </div>
+                                            <div class="SP_item-info-name">    
+                                                <a class="SP_item-info-tagName" href="Chi_tiet_sp_miendich.html" target="_self">
+                                                    <h6 class="item-info-tagName">Miễn dịch - Du hành thăm hệ thống bí ẩn giữ cho ta sống sót
+                                                    </h6>
+                                                  </a>
+                                                  
+                                            </div>
+                                            <div class="SP_item-info-money">
+                                                <span class="SP_item-info-money-old">499.000₫</span>
+                                                <span class="SP_item-info-money-new">349,000đ</span>
+                                                <span class="SP_item-info-money-sale">-15%</span>        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="SP_item-info">
+                                            <div class="SP_item-info__book" >
+                                                <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
+                                            </div>
+                                            <div class="SP_item-info-name">    
+                                                <a class="SP_item-info-tagName" href="Chi_tiet_sp_miendich.html" target="_self">
+                                                    <h6 class="item-info-tagName">Miễn dịch - Du hành thăm hệ thống bí ẩn giữ cho ta sống sót
+                                                    </h6>
+                                                  </a>
+                                                  
+                                            </div>
+                                            <div class="SP_item-info-money">
+                                                <span class="SP_item-info-money-old">499.000₫</span>
+                                                <span class="SP_item-info-money-new">349,000đ</span>
+                                                <span class="SP_item-info-money-sale">-15%</span>        
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="SP_item-info">
+                                            <div class="SP_item-info__book" >
+                                                <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
+                                            </div>
+                                            <div class="SP_item-info-name">    
+                                                <a class="SP_item-info-tagName" href="Chi_tiet_sp_miendich.html" target="_self">
+                                                    <h6 class="item-info-tagName">Miễn dịch - Du hành thăm hệ thống bí ẩn giữ cho ta sống sót
+                                                    </h6>
+                                                  </a>
+                                                  
+                                            </div>
+                                            <div class="SP_item-info-money">
+                                                <span class="SP_item-info-money-old">499.000₫</span>
+                                                <span class="SP_item-info-money-new">349,000đ</span>
+                                                <span class="SP_item-info-money-sale">-15%</span>        
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="SP_item-info">
+                                            <div class="SP_item-info__book" >
+                                                <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
+                                            </div>
+                                            <div class="SP_item-info-name">    
+                                                <a class="SP_item-info-tagName" href="Chi_tiet_sp_miendich.html" target="_self">
+                                                    <h6 class="item-info-tagName">Miễn dịch - Du hành thăm hệ thống bí ẩn giữ cho ta sống sót
+                                                    </h6>
+                                                  </a>
+                                                  
+                                            </div>
+                                            <div class="SP_item-info-money">
+                                                <span class="SP_item-info-money-old">499.000₫</span>
+                                                <span class="SP_item-info-money-new">349,000đ</span>
+                                                <span class="SP_item-info-money-sale">-15%</span>        
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="SP_item-info">
+                                            <div class="SP_item-info__book" >
+                                                <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
+                                            </div>
+                                            <div class="SP_item-info-name">    
+                                                <a class="SP_item-info-tagName" href="Chi_tiet_sp_miendich.html" target="_self">
+                                                    <h6 class="item-info-tagName">Miễn dịch - Du hành thăm hệ thống bí ẩn giữ cho ta sống sót
+                                                    </h6>
+                                                  </a>
+                                                  
+                                            </div>
+                                            <div class="SP_item-info-money">
+                                                <span class="SP_item-info-money-old">499.000₫</span>
+                                                <span class="SP_item-info-money-new">349,000đ</span>
+                                                <span class="SP_item-info-money-sale">-15%</span>        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="SP_item-info">
+                                                <div class="SP_item-info__book" >
+                                                    <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
+                                                </div>
+                                                <div class="SP_item-info-name">    
+                                                    <a class="SP_item-info-tagName" href="Chi_tiet_sp_miendich.html" target="_self">
+                                                        <h6 class="item-info-tagName">Miễn dịch - Du hành thăm hệ thống bí ẩn giữ cho ta sống sót
+                                                        </h6>
+                                                      </a>
+                                                      
+                                                </div>
+                                                <div class="SP_item-info-money">
+                                                    <span class="SP_item-info-money-old">499.000₫</span>
+                                                    <span class="SP_item-info-money-new">349,000đ</span>
+                                                    <span class="SP_item-info-money-sale">-15%</span>        
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="SP_item-info">
+                                                <div class="SP_item-info__book" >
+                                                    <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
+                                                </div>
+                                                <div class="SP_item-info-name">    
+                                                    <a class="SP_item-info-tagName" href="Chi_tiet_sp_miendich.html" target="_self">
+                                                        <h6 class="item-info-tagName">Miễn dịch - Du hành thăm hệ thống bí ẩn giữ cho ta sống sót
+                                                        </h6>
+                                                      </a>
+                                                      
+                                                </div>
+                                                <div class="SP_item-info-money">
+                                                    <span class="SP_item-info-money-old">499.000₫</span>
+                                                    <span class="SP_item-info-money-new">349,000đ</span>
+                                                    <span class="SP_item-info-money-sale">-15%</span>        
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="SP_item-info">
+                                                <div class="SP_item-info__book" >
+                                                    <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
+                                                </div>
+                                                <div class="SP_item-info-name">    
+                                                    <a class="SP_item-info-tagName" href="Chi_tiet_sp_miendich.html" target="_self">
+                                                        <h6 class="item-info-tagName">Miễn dịch - Du hành thăm hệ thống bí ẩn giữ cho ta sống sót
+                                                        </h6>
+                                                      </a>
+                                                      
+                                                </div>
+                                                <div class="SP_item-info-money">
+                                                    <span class="SP_item-info-money-old">499.000₫</span>
+                                                    <span class="SP_item-info-money-new">349,000đ</span>
+                                                    <span class="SP_item-info-money-sale">-15%</span>        
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="SP_item-info">
+                                                <div class="SP_item-info__book" >
+                                                    <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
+                                                </div>
+                                                <div class="SP_item-info-name">    
+                                                    <a class="SP_item-info-tagName" href="Chi_tiet_sp_miendich.html" target="_self">
+                                                        <h6 class="item-info-tagName">Miễn dịch - Du hành thăm hệ thống bí ẩn giữ cho ta sống sót
+                                                        </h6>
+                                                      </a>
+                                                      
+                                                </div>
+                                                <div class="SP_item-info-money">
+                                                    <span class="SP_item-info-money-old">499.000₫</span>
+                                                    <span class="SP_item-info-money-new">349,000đ</span>
+                                                    <span class="SP_item-info-money-sale">-15%</span>        
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        </div>   
+        <footer>
+            <div class="footer__header">
+                <h4 class="footer__say">Bookstore-Tri thức muôn nơi</h4>
+                <ul class=" footer__information">
+                    <li class="footer__information-item">
+                        <b>Sàn sách trực tuyến quốc gia</b><br>
+                        <b>Bookstore.com</b>
+                        <p>Thuộc bộ thông tin và truyền thông</p>
+                        <p>Đơn vị vận hành :Vivi Education</p>
+                    </li>
+                    <li class="footer__information-item">
+                        <a class="footer__information-link" href=""><b>Giới thiệu</b></a><br>
+                        <a class="footer__information-link" href=""><b>Kết nối</b></a> 
+                        <a href="" class="footer__navbar-icon-fb">
+                            <i class="icon fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="" class="footer__navbar-icon-Ins">
+                            <i class="icon fa-brands fa-instagram"></i>
+                        </a>
+                        
+                    </li>
+                    <li class="footer__information-item">
+                        <b>Hotline: 0247 300 1369</b><br>
+                        <b>Lượt truy cập: 6.892.340</b>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
