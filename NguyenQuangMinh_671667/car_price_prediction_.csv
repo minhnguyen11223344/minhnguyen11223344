@@ -1,0 +1,34 @@
+Car ID,Brand,Year,Engine Size,Fuel Type,Transmission,Mileage,Condition,Price
+1,Tesla,2016,2.3,Petrol,Manual,114832,New,26613.92
+2,BMW,2018,4.4,Electric,Manual,143190,Used,14679.61
+3,Audi,2013,4.5,Electric,Manual,181601,New,44402.61
+4,Tesla,2011,4.1,Diesel,Automatic,68682,New,86374.33
+5,Ford,2009,2.6,Diesel,Manual,223009,Like New,73577.1
+6,Audi,2019,2.4,Diesel,Automatic,246553,Like New,88969.76
+7,Audi,2020,4,Electric,Automatic,135486,Used,63498.75
+8,Tesla,2017,5.3,Hybrid,Automatic,83030,New,17381.19
+9,Honda,2023,5.7,Electric,Manual,120360,Like New,15905.62
+10,Ford,2010,1.5,Electric,Automatic,135009,Like New,9560.22
+11,Tesla,2001,1.8,Diesel,Automatic,298875,Like New,58872.6
+12,Ford,2017,5.7,Electric,Automatic,169737,Used,28074.19
+13,Ford,2006,4.7,Petrol,Automatic,114360,New,74766.45
+14,Audi,2023,5.4,Electric,Automatic,263894,Like New,70193.74
+15,BMW,2014,2,Electric,Automatic,65018,New,35220.52
+16,Ford,2010,3.9,Electric,Automatic,240904,Used,21796.16
+17,Mercedes,2017,4.5,Electric,Automatic,136817,New,14728.03
+18,Audi,2022,4.4,Hybrid,Automatic,192803,Like New,75044.95
+19,Honda,2011,3,Electric,Automatic,86984,New,47791.89
+20,BMW,2005,1.1,Petrol,Automatic,290595,New,35735.34
+21,Mercedes,2019,3.9,Petrol,Automatic,192608,Used,86382.04
+22,Mercedes,2022,2.3,Electric,Manual,12150,Used,61393.26
+23,Honda,2012,3.3,Diesel,Manual,275550,New,54210.22
+24,BMW,2019,5.8,Hybrid,Automatic,150853,New,75621.02
+25,Audi,2015,3,Electric,Automatic,188489,New,82480.4
+26,Toyota,2017,5.2,Electric,Automatic,18325,Used,70176.95
+27,BMW,2009,1.9,Electric,Manual,199756,Used,46800.6
+28,Honda,2022,4.4,Diesel,Manual,204541,New,41033.39
+29,Mercedes,2007,5.9,Diesel,Manual,17669,Used,78308.17
+30,Audi,2017,1.5,Diesel,Automatic,207836,Like New,54201.18
+31,BMW,2020,1,Hybrid,Automatic,132915,Used,71916.68
+32,Toyota,2000,3.2,Petrol,Automatic,196681,Used,89587.88
+33,Toyota,2022,1.5,Hybrid,Automatic,50812,Used,92009.61
